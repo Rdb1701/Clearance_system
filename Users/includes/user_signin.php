@@ -8,7 +8,6 @@ include('connection.php');
     $res_message = 0;
     $errors = array();
 
-
     $us = mysqli_escape_string($db, trim($_POST['username']));
     $pw = mysqli_escape_string($db, trim($_POST['password']));
     $opt = mysqli_escape_string($db, trim($_POST['options']));
@@ -81,7 +80,7 @@ include('connection.php');
       }
 
     }
-    
+
 
   $data['post'] = $_POST;
   $data['res_success'] = $res_success;

@@ -51,8 +51,7 @@ if (mysqli_num_rows($result) > 0) {
 }
 
 foreach($users as $key => $value){
-
-
+  
     $button= "
     <td class='text-center'>
     <div class='d-flex justify-content-center order-actions'>
